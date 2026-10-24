@@ -55,8 +55,8 @@ Given a single website URL, this skill discovers high-value commercial and infor
 1. **Crawl & Extract:**
    - Fetch the root URL, `/about`, `/menu` or `/guide`, and `/sitemap.xml`.
 2. **Compile Brand Dossier:**
-   - **Entity Identity:** Primary brand (`your content site`), niche authority (Tokyo and regional Japanese ramen culture, shop etiquette, travel logistics).
-   - **Target ICP:** Inbound international travelers, culinary tourists, expatriates, and ramen connoisseurs seeking authentic shop recommendations and ordering guidance.
+   - **Entity Identity:** Primary brand (`your content site`), niche authority (your topic area, best practices, practical guides).
+   - **Target ICP:** Inbound international travelers, users seeking authoritative guides and recommendations and ordering guidance.
    - **Brand Voice:** Grounded, culturally accurate, practical, zero tourist hype, direct, respectful of shop masters.
    - **Existing Index Footprint:** Map all currently indexed pages and sitemap URLs to build a clean baseline.
 
@@ -68,10 +68,10 @@ Given a single website URL, this skill discovers high-value commercial and infor
 
 ### Step 2A — Competitor Discovery
 1. Search Google for core niche topics:
-   - `"tokyo ramen guide"`
-   - `"best tonkotsu ramen fukuoka"`
-   - `"ramen ticket vending machine guide"`
-   - `"japan food tourism ramen"`
+   - `"city guide guide"`
+   - `"best specialty guide fukuoka"`
+   - `"ordering vending machine guide"`
+   - `"topic area tourism"`
 2. Identify 3–5 active competing publications and blogs.
 3. Fetch competitor sitemaps or blog indexes and construct the **Competitor Content Map**.
 
@@ -87,13 +87,13 @@ Organize discovered topics into structured clusters:
 CONTENT PLAN: example-site.com
 
 Cluster: [REGIONAL STYLES & DISCOVERY]
-- Pillar: "Tokyo Ramen Styles Explained: From Shoyu to Tsukemen" ──► Ultimate Guide ──► Priority: HIGH
-- Support: "Best Morning Ramen (Asa-Ramen) Spots in Tokyo" ────────► Guide ───────────► Priority: HIGH
+- Pillar: "Topic Categories Explained: From Style A to Style B" ──► Ultimate Guide ──► Priority: HIGH
+- Support: "Best Specialty Category Spots in Tokyo" ────────► Guide ───────────► Priority: HIGH
 - Support: "Tonkotsu vs Tori Paitan: Broth Differences & Origins" ──► Comparison ──────► Priority: MED
 
 Cluster: [TRAVELER UTILITY & ETIQUETTE]
-- Pillar: "How to Order Ramen in Japan: Ticket Machines to Slurping" ──► Ultimate Guide ─► Priority: HIGH
-- Support: "Cashless vs Cash-Only: Tokyo Ramen Payment Rules" ───────► Practical Guide ─► Priority: MED
+- Pillar: "How to Use the Service in Japan: Ticket Machines to Slurping" ──► Ultimate Guide ─► Priority: HIGH
+- Support: "Cashless vs Cash-Only: Payment Rules" ───────► Practical Guide ─► Priority: MED
 
 Article Size Mapping:
 • Pillar / Ultimate Guide: ~2,500 words (size: xl)
@@ -161,7 +161,7 @@ With the a social media scheduling API active in your environment:
    {
      "social_profile_ids": [TARGET_PROFILE_IDS],
      "content": "Article summary and social copy...",
-     "media_urls": ["https://example-site.com/images/verified-ramen.jpg"]
+     "media_urls": ["https://example-site.com/images/verified-content.jpg"]
    }
    ```
 
@@ -170,7 +170,7 @@ With the a social media scheduling API active in your environment:
    tools/call: posts_create
    {
      "social_profile_ids": [TARGET_PROFILE_IDS],
-     "content": "Tokyo ramen shops are updating their ticket vending machines for the new banknotes. Here is the traveler's guide to cashless ordering and essential etiquette in 2026.\n\nRead the full guide: https://example-site.com/how-to-order-ramen",
+     "content": "Tokyo businesses are updating their ticket vending machines for the new banknotes. Here is the traveler's guide to cashless ordering and essential etiquette in 2026.\n\nRead the full guide: https://example-site.com/how-to-order-topic",
      "post_status": "scheduled",
      "publish_time": "2026-10-20T10:00:00Z",
      "timezone": "Asia/Tokyo",
@@ -186,7 +186,7 @@ Maintain a local CSV ledger recording every published article and syndicated soc
 
 ```csv
 Date,Keyword,Title,CMS_Status,Robin_Post_ID,Platforms,Live_URL
-2026-10-19,how to order ramen in japan,How to Order Ramen in Japan: 2026 Guide,Published,rr_94821,X|Threads|Instagram,https://example-site.com/how-to-order-ramen
+2026-10-19,how to order topic in japan,How to Use the Service in Japan: 2026 Guide,Published,rr_94821,X|Threads|Instagram,https://example-site.com/how-to-order-topic
 ```
 
 ---
