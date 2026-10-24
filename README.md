@@ -14,6 +14,7 @@ Battle-tested skills for indie app builders: from picking your niche to automate
 - **copywriting** – Frameworks for app descriptions, landing pages, and email outreach
 - **news-topic-finder** – Discover trending topics worth writing about
 - **automated-content-pipeline** – Monitor news and distribute social content automatically
+- **appstore-header-loop** – Build a seamless looping App Store header and search-result video from your app's own assets
 
 ### SEO & Growth
 - **app-marketing-website** – Build SEO-optimized marketing sites for your apps
@@ -23,6 +24,7 @@ Battle-tested skills for indie app builders: from picking your niche to automate
 - **seo-technical** – Technical SEO checklist for better rankings
 - **automated-seo-pipeline** – End-to-end SEO content creation and distribution
 - **aso-seo-crossref** – Join App Store and Google keyword data for unified optimization
+- **google-play-aso** – Google Play listing optimization: title, short and full description, feature graphic, store listing experiments
 
 ## How to Use
 
