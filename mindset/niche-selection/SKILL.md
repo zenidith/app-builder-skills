@@ -188,6 +188,14 @@ Detail in `references/linking-and-risk-notes.md`.
 - Cross-promote through channels as well as links: newsletter mentions, social posts, in-app
   links, shared events.
 
+## Where good ideas come from
+
+- **Start from your own life.** Problems you hit yourself, workflows you already built for yourself, and gaps you noticed first-hand give you an angle nobody else has.
+- **Check AI-suggested ideas against the App Store.** If an idea came from an AI prompt, search the App Store for it before scoring. AI tends to suggest the same ideas to everyone, so expect polished competitors. If several well-rated apps already do it, only continue if you have a clearly different angle.
+- **Don't clone other indie builders' apps.** Copying a visible app without adding anything new rarely works and burns goodwill.
+
+(Adapted from Adam Lyttle.)
+
 ## Red flags
 
 - **YMYL ("your money or your life") topics:** health, finance, legal, safety, news on civic

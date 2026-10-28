@@ -43,6 +43,17 @@ Goal: one idea in an unsaturated niche, or a genuinely new idea, with clear posi
 - [ ] List 10–20 competitor app names and keywords. You will bid on these at launch.
 - [ ] Decide: go, or back to the list.
 
+### Before you build: the experiment loop
+
+Don't disappear for months building in private. Run the idea through small, cheap tests first:
+
+1. **Tiny prototype.** Only the core idea, nothing else.
+2. **Friends and family.** Put it in real hands and watch what they actually do.
+3. **Free web build.** Release a simple web version to a wider audience; it is cheaper to change than an App Store build.
+4. **App Store.** Submit once people keep using the web version, and add features they ask for, not ones you guess at.
+
+Each step is cheaper to change than the next, so most wrong ideas die early. (Adapted from Adam Lyttle's experimentation loop.)
+
 ## Phase 2: Build
 
 Goal: a simple, good-looking native app with an onboarding that converts.
@@ -114,5 +125,8 @@ Targets marked [FJ] are the author's numbers. Blank targets: set your own from y
 - Measuring nothing, so every change is a guess.
 
 ## Credit
+
+The experiment loop before Phase 2 is adapted from Adam Lyttle.
+
 
 Based on a post by Frederick James (@frederickjames on X).
